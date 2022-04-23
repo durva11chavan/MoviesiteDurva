@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FREE GUY</title>
+  </head>
+  <body>
+    <section class="showcase" class="container-fluid">
+      <header>
+        <h2 class="logo">Perfect Blend of Action Adventure Comedy</h2>
+        <div class="toggle"></div>
+      </header>
+      <video
+        src="https://www.pexels.com/video/2169880/download/"
+        muted
+        loop
+        autoplay
+      ></video>
+      <div class="overlay"></div>
+
+      <div class="text" id="overview">
+        <h2>Free Guy</h2>
+        <h3>2021 ‧ Action/Comedy ‧ 1h 55m</h3>
+        <p>
+          Free Guy is a 2021 American action comedy film directed and produced
+          by Shawn Levy from a screenplay by Matt Lieberman and Zak Penn, and a
+          story by Lieberman. The film stars Ryan Reynolds, Jodie Comer, Lil Rel
+          Howery, Utkarsh Ambudkar, Joe Keery, and Taika Waititi.
+        </p>
+        <a href="#">Watch Movie</a>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/X2m-08cOAbc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="#"><img src="images/facebook.png" alt="facebook logo" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/twitter.png" alt="twitter logo" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/instagram.png" alt="instagram logo"
+          /></a>
+        </li>
+      </ul>
+        <div class="text" id="review">
+          <h4>Views of: </h4>
+          <h4>Paula Nandan</h4>
+          <p>Honestly loved it! I give it an 8/10 — loved every minute of it.</p>
+          <h4>Sharmila</h4>
+          <p>Amazing Movie. Personally 9/10. Superb Animations.</p>
+      </div>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#ratings">Ratings</a></li>
+        <li><a href="#review">Reivew</a></li>
+        <li><a href="#cast">Cast</a></li>
+        <li><a href="#social">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+      <section class="Cast" id="cast">
+        <footer>
+          <div class="row">
+            <div class="column">
+              <img
+                src="images/images (1).jpg"
+                alt="poster"
+                height="80px"
+                width="50px"
+              />
+              <img
+                src="images/images (9).jpg"
+                alt="poster2"
+                height="80px"
+                width="50px"
+              />
+            </div>
+          </div>
+          <h2>Cast</h2>
+          <div class="row">
+            <div class="column">
+              <img
+                src="images/images (2).jpg"
+                alt="Ryan"
+                height="80px"
+                width="50px"
+              />
+              <img
+                src="images/images (3).jpg"
+                alt="Jodi"
+                height="80px"
+                width="50px"
+              />
+              <img
+                src="images/images (4).jpg"
+                alt="Tyka"
+                height="80px"
+                width="50px"
+              />
+              <img
+                src="images/images (5).jpg"
+                alt="Joe"
+                height="80px"
+                width="50px"
+              />
+              <img
+                src="images/images (6).jpg"
+                alt="Chan"
+                height="80px"
+                width="50px"
+              />
+              <img
+                src="images/images (7).jpg"
+                alt="Utkarsh"
+                height="80px"
+                width="50px"
+              />
+              <img
+                src="images/images (10).jpg"
+                alt="Aaron"
+                height="80px"
+                width="50px"
+              />
+            </div>
+          </div>
+        </footer>
+      </section>
+  </body>
+</html>
